@@ -4,10 +4,12 @@
 
 local foo = {} --foo namespace
 
-function foo.bang()
+function foo.bang(x)
+    return x + 5
 end
 
-function foo.zong()
+function foo.zong(n)
+    return n - 5
 end
 
 return foo

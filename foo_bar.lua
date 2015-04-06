@@ -5,6 +5,7 @@
 local bar = {}
 
 function bar.gaz()
+    return 'gazz'
 end
 
 return bar
